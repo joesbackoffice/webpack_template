@@ -9,7 +9,13 @@
     "strict": true,
     "skipLibCheck": true,
     "outDir": "./dist",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "paths": {
+      "@styles/*": [
+        "src/styles/*"
+      ]
+    }
   },
   "include": [
     "src/**/*"
